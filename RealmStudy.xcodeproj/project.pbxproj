@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		110187B7F78DAA7D27233738 /* Pods_RealmStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C046C117E06122A4EB6AD2C /* Pods_RealmStudy.framework */; };
-		D383042B2493102F00A827D0 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383042A2493102F00A827D0 /* Password.swift */; };
+		D383042B2493102F00A827D0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383042A2493102F00A827D0 /* Account.swift */; };
 		D3D0055224930D0400D23007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0055124930D0400D23007 /* AppDelegate.swift */; };
 		D3D0055424930D0400D23007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0055324930D0400D23007 /* SceneDelegate.swift */; };
 		D3D0055624930D0400D23007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0055524930D0400D23007 /* ViewController.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		6C046C117E06122A4EB6AD2C /* Pods_RealmStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CA032743CC5E9245EB1A0F /* Pods-RealmStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmStudy.release.xcconfig"; path = "Target Support Files/Pods-RealmStudy/Pods-RealmStudy.release.xcconfig"; sourceTree = "<group>"; };
-		D383042A2493102F00A827D0 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		D383042A2493102F00A827D0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D3D0054E24930D0400D23007 /* RealmStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D0055124930D0400D23007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D0055324930D0400D23007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,14 +82,14 @@
 		D3D0055024930D0400D23007 /* RealmStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D3D0055F24930D0C00D23007 /* Info.plist */,
 				D3D0055124930D0400D23007 /* AppDelegate.swift */,
+				D383042A2493102F00A827D0 /* Account.swift */,
 				D3D0055324930D0400D23007 /* SceneDelegate.swift */,
 				D3D0055524930D0400D23007 /* ViewController.swift */,
-				D3D0055724930D0500D23007 /* Main.storyboard */,
 				D3D0055A24930D0C00D23007 /* Assets.xcassets */,
 				D3D0055C24930D0C00D23007 /* LaunchScreen.storyboard */,
-				D3D0055F24930D0C00D23007 /* Info.plist */,
-				D383042A2493102F00A827D0 /* Password.swift */,
+				D3D0055724930D0500D23007 /* Main.storyboard */,
 			);
 			path = RealmStudy;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D383042B2493102F00A827D0 /* Password.swift in Sources */,
+				D383042B2493102F00A827D0 /* Account.swift in Sources */,
 				D3D0055624930D0400D23007 /* ViewController.swift in Sources */,
 				D3D0055224930D0400D23007 /* AppDelegate.swift in Sources */,
 				D3D0055424930D0400D23007 /* SceneDelegate.swift in Sources */,
