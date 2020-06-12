@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //MARK: データベースを操作するメソッド
     
     // Accountを保存するメソッド
-    func save(account: Account) {
+    func create(account: Account) {
         let realm = try! Realm()
         try! realm.write {
             realm.add(account)
@@ -65,7 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         account.category = "テストCATEGORY"
         account.imageData = nil
         // 保存を行う
-        save(account: account)
+        create(account: account)
         // 最新データを取得する
         get()
         // TableViewをリロードして保存したAccountも表示されるようにする
