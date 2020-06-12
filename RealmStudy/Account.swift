@@ -4,7 +4,7 @@ import RealmSwift
 
 // Objectをスーパークラスにすることでこのクラスの変数のデータをRealmに保存することができる
 class Account: Object {
-    // 変数の宣言
+    //MARK: 変数の宣言
     // 名前
     @objc dynamic var name: String = ""
     // ID
